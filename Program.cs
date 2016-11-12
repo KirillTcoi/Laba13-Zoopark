@@ -18,7 +18,7 @@ namespace RoevRuchei
             zoo2.Volvers[0].Zver = z2;
             Perem(zoo2, zoo1, z1);
         }
-        public static void Perem(Zoopark ZB, Zoopark ZA, Zver Z)
+        public static void Perem(Zoopark ZB, Zoopark ZA, Zver Z) //Меняем местами
         {
             ZB.Volvers[0].Zver = Z;
             ZA.Volvers[0].Zver = null;
